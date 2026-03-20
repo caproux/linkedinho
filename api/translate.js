@@ -113,7 +113,7 @@ ESTRUTURA DO TEXTÃO:
 
 ${FEW_SHOTS_TURBO}`;
 
-  const model = 'gemini-2.0-flash';
+  const model = 'gemini-2.5-flash-preview-04-17';
   const system = turbo ? systemTurbo : systemShort;
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${process.env.GEMINI_API_KEY}`;
 
